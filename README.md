@@ -6,7 +6,7 @@ Spring Kafka is used to pass metrics between microservices.
 Exposes REST API endpoint to gather Actuator application metrics by given name and sending to Kafka topic.
 #### consumer
 Listens to the Kafka topic and stores the metric statistic in embedded H2 database.
-Exposes REST API for browsing, searching, filtering the metrics statistic.
+Exposes REST API for browsing, searching, filtering, aggregation the metrics statistic.
 
 ---
 ### Kafka
